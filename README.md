@@ -2,24 +2,38 @@
 Hospital management System (Mini Project),
 A fully functional Hospital management system built using Java Swing and MySQL. 
 
-##Prerequisites
-*Java Development Kit (JDK)
-*Integrated Development Environment (IDE) like Netbeans or Eclipse
-*MySQL Database Server
+## Prerequisites
+*Java Development Kit (JDK)  
+*Integrated Development Environment (IDE) like Netbeans or Eclipse   
+*MySQL Database Server   
 
-##Running the project
+## Run the Project: Quick Guide
 
 You may have to rebuild this project inorder to reinitialize the JDBC Connector with your local SQL username and password.
-
-*Open the project using Suitable IDE -Netbeans,Eclipse etc..
-*Navigate to HospitalManagement/src/Project
-*Open ConnectionProvider.java
+## Clone the project
+```bash
+git clone https://github.com/AbhijithCR-1/HospitalManagement.git
+cd HospitalManagement
+```
+## Open the project
+*Open the project using Suitable IDE -Netbeans,Eclipse etc.  
+## Database configuration  
+-Navigate to HospitalManagement/src/Project.  
+-Open ConnectionProvider.java.  
+-Add your SQL username and password instead of "your_username" ,"your password".  
 ![image](https://github.com/AbhijithCR-1/HospitalManagement/assets/78850178/55f1200d-52d7-4843-908f-7977f5d1459e)
-*Change "root" to your SQL usernname and add your password in the subsequent empty blank space
-*rebuild the project.
 
-To run the project from the command line, go to the dist folder and
-type the following:
+## Rebuild the project.
+-rebuild the project to apply the changes
 
-
+## Run the project.
+#### Method 1-From  IDE.
+-Directly run the project from the IDE using cntrl+R(depends on the IDE).
+#### Method 2-Using Command Line
+-Navigate to Project folder in command line.
+```bash
+cd dist
 java -jar "HospitalManagement.jar"
+```
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
