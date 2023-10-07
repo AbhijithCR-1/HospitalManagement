@@ -21,7 +21,8 @@ cd HospitalManagement
 -Navigate to HospitalManagement/src/Project.  
 -Open ConnectionProvider.java.  
 -Add your SQL username and password instead of "your_username" ,"your password".  
-![image](https://github.com/AbhijithCR-1/HospitalManagement/assets/78850178/55f1200d-52d7-4843-908f-7977f5d1459e)
+![image](https://github.com/AbhijithCR-1/HospitalManagement/assets/78850178/69edc195-f59f-4780-89b0-649416360203)
+
 
 ## Rebuild the project.
 -rebuild the project to apply the changes
